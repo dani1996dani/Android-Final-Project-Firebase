@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "777749958343",
+    "firebase_url": "https://tudu-6839c.firebaseio.com",
+    "project_id": "tudu-6839c",
+    "storage_bucket": "tudu-6839c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777749958343:android:d437ef942332639e",
+        "android_client_info": {
+          "package_name": "com.tudu.tudu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777749958343-dftvvh9r4t9vvakmqbentk43ufdoco6g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tudu.tudu",
+            "certificate_hash": "3cc37105e9de17e8d4e693ac54ad0fb206577b83"
+          }
+        },
+        {
+          "client_id": "777749958343-md3ictk07lf0ei6s4a6plcp26o135963.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCktn5Z5QXNTGI-NJxZmDz4VR5mbs0LppY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777749958343-md3ictk07lf0ei6s4a6plcp26o135963.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

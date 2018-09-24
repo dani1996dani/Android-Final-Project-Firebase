@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Edit Task"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="@dimen/input_width"
+        android:id="@+id/edittextCurrentTitle"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="@dimen/input_width"
+        android:id="@+id/edittextCurrentContent"
+        android:layout_height="wrap_content"
+        android:hint="Content"
+        android:textAlignment="center" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Important"
+        android:id="@+id/checkboxImportance"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEditDoneDialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+
+            android:text="Done"
+            android:textColor="#00ae71"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnDeleteTaskDialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+
+            android:clickable="true"
+
+            android:text="Delete"
+            android:textColor="#f18389"
+            android:textSize="18sp" />
+        />
+
+
+    </LinearLayout>
+
+</LinearLayout>

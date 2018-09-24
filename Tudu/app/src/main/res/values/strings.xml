@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tudu</string>
+    <string name="input_login_username">Username</string>
+    <string name="input_login_password">Password</string>
+    <string name="email">Email</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="color_array">
+        <item>Yellow</item>
+        <item>Red</item>
+    </string-array>
+</resources>

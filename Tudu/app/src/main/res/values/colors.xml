@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="input_shape_color">#dcbfbfbf</color>
+    <color name="input_shape_color_transperant">#32bfbfbf</color>
+    <color name="input_hint_color">#262626</color>
+    <color name="button_color">#dcdcdc</color>
+
+    <color name="importantTaskYellow">#F5BE25</color>
+    <color name="importantTaskRed">#af2222</color>
+    <color name="importantTaskGreen">#309714</color>
+    <color name="regularTask">#dcdcdc</color>
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="input_text">
+
+        <item name="android:layout_width">@dimen/input_width</item>
+        <item name="android:layout_height">@dimen/input_height</item>
+        <item name="android:layout_margin">@dimen/input_margin</item>
+        <item name="android:background">@drawable/shape_input</item>
+        <item name="android:letterSpacing">@dimen/input_letter_spacing</item>
+        <item name="android:padding">@dimen/input_padding</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColorHint">@color/input_hint_color</item>
+
+    </style>
+
+    <style name="button">
+
+        <item name="android:layout_width">@dimen/input_width</item>
+        <item name="android:layout_height">@dimen/input_height</item>
+        <item name="android:layout_margin">@dimen/input_margin</item>
+        <item name="android:background">@drawable/shape_button</item>
+        <item name="android:letterSpacing">@dimen/input_letter_spacing</item>
+        <item name="android:padding">@dimen/input_padding</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColorHint">@color/input_hint_color</item>
+
+
+    </style>
+
+</resources>
