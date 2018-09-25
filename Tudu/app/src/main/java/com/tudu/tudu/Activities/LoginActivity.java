@@ -34,12 +34,8 @@ public class LoginActivity extends AppCompatActivity implements AlertListener, L
         firebaseAuth = FirebaseAuth.getInstance();
         if (firebaseAuth.getCurrentUser() != null) {
             onSuccessfulLogin();
+            return;
         }
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
 
         //Loads up the login/register screen in case the user is not logged in.
         email = findViewById(R.id.input_username);
@@ -50,8 +46,8 @@ public class LoginActivity extends AppCompatActivity implements AlertListener, L
         //getting the fragment type from the intent (either just entered the app or came from TasksActivity), if none is present, 0 is the default and the register screen will show up.
         int fragmentType = getIntent().getIntExtra(Consts.INTENT_FRAGMENT_TYPE,0);
         loadLoginFragment(fragmentType);
-
     }
+
 
     /**
      * Displays/Hides a TextView that shows an error message.
